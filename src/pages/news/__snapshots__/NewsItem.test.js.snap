@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewsItem /> When rendering should renders properly 1`] = `
+<styled.div
+  className="news-item"
+>
+  <Row
+    gutter={0}
+  >
+    <Col
+      span={24}
+    >
+      <styled.div>
+        <styled.a
+          href="url"
+        >
+          title
+        </styled.a>
+      </styled.div>
+    </Col>
+  </Row>
+  <Row
+    gutter={0}
+  >
+    <Col
+      lg={
+        Object {
+          "span": 3,
+        }
+      }
+      xs={
+        Object {
+          "span": 8,
+        }
+      }
+    >
+      <styled.div
+        className="news-item__date"
+      >
+        15/02/2019
+      </styled.div>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "span": 21,
+        }
+      }
+      xs={
+        Object {
+          "span": 16,
+        }
+      }
+    >
+      <styled.span
+        className="news-item__source"
+      >
+        source
+      </styled.span>
+    </Col>
+  </Row>
+</styled.div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewsListHeader /> When rendering should renders properly 1`] = `
+<styled.div
+  className="news-item"
+>
+  <styled.div>
+    Notícias
+  </styled.div>
+  <div>
+    <Select
+      allowClear={true}
+      choiceTransitionName="zoom"
+      onChange={[MockFunction]}
+      placeholder="Filtrar por fonte"
+      showSearch={false}
+      style={
+        Object {
+          "width": "170px",
+        }
+      }
+      transitionName="slide-up"
+    >
+      <Option
+        value="0"
+      >
+        0
+      </Option>
+      <Option
+        value="1"
+      >
+        1
+      </Option>
+    </Select>
+  </div>
+</styled.div>
+`;
